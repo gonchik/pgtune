@@ -1,17 +1,16 @@
-# [PgTune](http://pgtune.leopard.in.ua/)
+# [PgTune](https://pgtune.leopard.in.ua/) [![Build and Deploy](https://github.com/le0pard/pgtune/actions/workflows/deploy.yml/badge.svg)](https://github.com/le0pard/pgtune/actions/workflows/deploy.yml)
 
-Tuning PostgreSQL config by your hardware. Based on original [pgtune](http://pgfoundry.org/projects/pgtune/).
+[![PGTune](https://repository-images.githubusercontent.com/17980400/ff62f200-e3ae-11e9-9169-fcdbb1cbdb20 "PGTune")](https://pgtune.leopard.in.ua/)
 
-
+Tuning PostgreSQL config by your hardware. Based on original [pgtune](https://github.com/gregs1104/pgtune). Illustration by [Kate](https://dribbble.com/Kite).
 
 ## Development
 
-[Main calculation logic](https://github.com/le0pard/pgtune/blob/master/source/javascripts/pgtune.coffee).
-Web app build on top of [middleman](http://middlemanapp.com/). To start it in development mode, you need install ruby and run in terminal:
+To start it in development mode, you need install node.js, yarn and run in terminal:
 
 ```bash
-$ bundle # get all deps
-$ middleman server # start server on 4567 port
+$ yarn # get all node.js deps
+$ yarn dev # start server on 5173 port
 ```
 
 ## Contributing
